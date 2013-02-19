@@ -1,0 +1,31 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>label</key>
+        <string>com.adam.replicate</string>
+
+	<key>Program</key>
+        <array>
+                <string>/Users/adam/Scripts/replication/replicateAll.py</string>
+        </array>
+	
+	<key>ProgramArguments</key>
+        <array>
+	        <string>/Users/adam/Scripts/replication/replicateAll.py</string>
+        </array>
+	
+	<key>UserName</key>
+	<string>adam</string>
+
+	<key>StandardOutPath</key>
+        <string>/Users/adam/Scripts/replication/scriptStdOut.log</string>
+        
+        <key>StandardErrorPath</key>
+        <string>/Users/adam/Scripts/replication/scriptStdErr.log</string>
+
+	<key>StartInterval</key>
+	<integer>7200</integer>
+
+
+</dict>
+</plist>
