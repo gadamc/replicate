@@ -9,6 +9,9 @@
                 <string>/Users/adam/Scripts/replication/replicateAll.py</string>
         </array>
 	
+	<key>WorkingDirectory</key>
+	<string>/Users/adam/Scripts/replication</string>
+	
 	<key>ProgramArguments</key>
         <array>
 	        <string>/Users/adam/Scripts/replication/replicateAll.py</string>

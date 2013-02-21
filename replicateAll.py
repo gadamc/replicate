@@ -6,6 +6,8 @@ import json
 import strjson
 import sys
 
+print "UTC Time:",  datetime.utcnow()
+
 try:
     creds = strjson.load('localcredentials.json')
     print json.dumps(creds, indent=1)
@@ -20,7 +22,7 @@ s = Server(creds['server'])
 db = s['_replicator']
 vr = db.all_docs()
 
-print "UTC Time:",  datetime.utcnow()
+
 for row in vr:
 
     try:
